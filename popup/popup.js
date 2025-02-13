@@ -80,7 +80,7 @@ prevButton.addEventListener("click", function () {
     .then(sendMessage);
 });
 
-volumeSlider.addEventListener("change", function () {
+volumeSlider.addEventListener("input", function () {
   message = "Volume";
   volume = volumeSlider.value;
   browser.tabs.query({}).then(sendMessage);
