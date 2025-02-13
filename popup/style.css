@@ -1,5 +1,4 @@
 html {
-  border: solid white 6px;
   background-color: #000000;
   user-select: none;
   overflow: hidden;
@@ -7,7 +6,7 @@ html {
 body {
   width: 250px;
   height: 300px;
-  font-family: Impact;
+  font-family: "Arial Black", sans-serif;
   font-size: 24px;
   color: white;
   text-shadow: 2px 1px 1px black;
@@ -17,13 +16,15 @@ body {
   gap: 12px;
   justify-content: center;
   align-items: center;
+  border: solid white 6px;
+  margin: 0;
+  padding: 0;
 }
 header {
   display: flex;
-  align-self: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
 }
 
 .button-group {
@@ -38,12 +39,12 @@ header {
 .button {
   padding: 2px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 0;
   cursor: pointer;
 }
 
 .volume-container {
-  margin-top: -12px;
+  margin-top: -20px;
 }
 
 #volumeSlider {
